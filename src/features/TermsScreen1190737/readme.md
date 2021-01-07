@@ -1,6 +1,6 @@
 # Terms & Conditions Screen
 
-The Terms and Conditions Screen is a ReactNative based screen that leverages the webview with a simple header.
+The Terms and Conditions Screen is a ReactNative based screen that leverages the webview with a simple header. 1190737
   
 ## Installation
 
@@ -18,11 +18,11 @@ files in the github repository. Please note to replace ####### with the numeric 
   **/src/mainNavigator.js:** 
    **ADD** immediately below in the section labeled  //@BlueprintImportInsertion:  
    
-   ```import TermsScreen#######Navigator from '../features/TermsScreen#######/navigator';```
+   ```import TermsScreen1190737Navigator from '../features/TermsScreen1190737/navigator';```
    
    **ADD**  immediately below in the section inside AppNavigator definition labeled  //@BlueprintNavigationInsertion section:
    
-   ```TermsScreen#######: { screen: TermsScreen#######Navigator },```
+   ```TermsScreen1190737: { screen: TermsScreen1190737Navigator },```
   
 ### STEP 3: Add Terms screen into the sidemenu navigation.  
   **/src/config/installed_blueprints.js**
@@ -32,7 +32,7 @@ files in the github repository. Please note to replace ####### with the numeric 
    In installed_blueprints.js you need to add objects for every screen that you want to show in the sidemenu/splash screen.
    They have a specific format:
    
-   ``` { name: 'TermsScreen#######', human_name: 'Terms & Conditions', access_route: 'TermsScreen#######'} ```
+   ``` { name: 'TermsScreen1190737', human_name: '* Terms & Conditions *', access_route: 'TermsScreen1190737'} ```
    
    **name:**  doesn't matter much, its used as a unique key for the side menu and splash screens array of 
    buttons, it must be unique, that's the only requirement
